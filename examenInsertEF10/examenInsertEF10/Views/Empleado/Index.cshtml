@@ -1,0 +1,97 @@
+﻿@model examenInsertEF10.ViewModel.EmpleadoVM
+
+@{
+    ViewData["Title"]= "Gestion de Empleados";
+}
+
+<div class="container">
+
+    <div class="m-2">
+        <form asp-action="Guardar" method="post">
+            <div>
+                <h2>Insert de Empleado</h2>
+            </div>
+            <div>
+                <label>Nombre Empleado: </label>
+                <input asp-for="EmpleadoModelReference.NombreEmpleado" required/>
+            </div>
+            <div>
+                <label>Departamento</label>
+                <select asp-for="EmpleadoModelReference.IdDepartamento" 
+                        asp-items="@(new SelectList(Model.ListaDepartamentos, "IdDepartamento", "NombreDepartamento"))" required>
+                        <option value="">--Selecciona un Departamento</option>
+                </select>
+            </div>
+            <div>
+                <button type="submit" class="btn btn-outline-secondary">
+                    Guardar
+                </button>
+            </div>
+        </form>
+    </div>
+
+    <div class="m-2">
+        <div>
+            <div>
+                <h2>Filtro por Departamentos</h2>
+            </div>
+            <div>
+                <select onchange="location.href='?idDep=' + this.value">
+                    <option value="0">--Ver Todo--</option>
+                    @foreach (var dep in Model.ListaDepartamentos)
+                    {
+                        <option value="@dep.IdDepartamento" selected="@(dep.IdDepartamento == ViewBag.IdSeleccionado)">
+                            @dep.NombreDepartamento
+                        </option>
+                    }
+                </select>
+                <a asp-action="Index" class="btn btn-outline-success">
+                    Limpiar
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="m-2">
+        <table class="table table-responsive">
+            <thead>
+                <tr>
+                    <th>Id Empleado</th>
+                    <th>Nombre Empleado</th>
+                    <th>Departamento</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                @if (Model.ListaEmpleados ==null || !Model.ListaEmpleados.Any())
+                {
+                    <tr>
+                        <td>No se econtraron empleados con los parametros seleccionados</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                }
+                else
+                {
+                    @foreach (var emp in Model.ListaEmpleados)
+                    {
+                        <tr>
+                            <td>@emp.IdEmpleado</td>
+                            <td>@emp.NombreEmpleado</td>
+                            <td>@emp.IdDepartamentoNavigation?.NombreDepartamento</td>
+                            <td>
+                                <form asp-action="Borrar" method="post">
+                                    <input type="text" name ="idEmp" value="@emp.IdEmpleado" hidden />
+                                    <button type="submit" class="btn btn-outline-danger">
+                                        Eliminar
+                                    </button>
+                                </form>
+                            </td>
+                        </tr>
+                    }
+                }
+            </tbody>
+        </table>
+    </div>
+
+</div>

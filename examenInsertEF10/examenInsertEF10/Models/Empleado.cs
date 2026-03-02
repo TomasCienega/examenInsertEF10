@@ -1,0 +1,14 @@
+﻿using System;
+using System.Collections.Generic;
+
+namespace examenInsertEF10.Models
+{
+    public partial class Empleado
+    {
+        public int IdEmpleado { get; set; }
+        public string NombreEmpleado { get; set; } = null!;
+        public int? IdDepartamento { get; set; }
+
+        public virtual Departamento? IdDepartamentoNavigation { get; set; }
+    }
+}
