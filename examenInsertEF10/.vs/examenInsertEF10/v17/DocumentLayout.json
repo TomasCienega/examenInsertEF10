@@ -23,8 +23,8 @@
       "RelativeMoniker": "D:0:0:{FA3690DA-E96B-4992-B4E8-13661A12A78B}|examenInsertEF10\\examenInsertEF10.csproj|solutionrelative:exameninsertef10\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tomas\\Downloads\\EjerciciosDeProgramacion\\examenInsertEF10\\examenInsertEF10\\examenInsertEF10\\Context\\examenInsertEF10Context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:examenInsertEF10\\Context\\examenInsertEF10Context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FA3690DA-E96B-4992-B4E8-13661A12A78B}|examenInsertEF10\\examenInsertEF10.csproj|c:\\users\\tomas\\downloads\\ejerciciosdeprogramacion\\exameninsertef10\\exameninsertef10\\exameninsertef10\\context\\exameninsertef10context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA3690DA-E96B-4992-B4E8-13661A12A78B}|examenInsertEF10\\examenInsertEF10.csproj|solutionrelative:exameninsertef10\\context\\exameninsertef10context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,8 +46,7 @@
               "RelativeToolTip": "examenInsertEF10\\Views\\Empleado\\Index.cshtml",
               "ViewState": "AgIAAEgAAAAAAAAAAAAAAFMAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-02T19:42:46.946Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-02T19:42:46.946Z"
             },
             {
               "$type": "Document",
@@ -57,7 +56,7 @@
               "RelativeDocumentMoniker": "examenInsertEF10\\Controllers\\EmpleadoController.cs",
               "ToolTip": "C:\\Users\\tomas\\Downloads\\EjerciciosDeProgramacion\\examenInsertEF10\\examenInsertEF10\\examenInsertEF10\\Controllers\\EmpleadoController.cs",
               "RelativeToolTip": "examenInsertEF10\\Controllers\\EmpleadoController.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAwwEYAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowEYAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-02T19:35:30.695Z",
               "EditorCaption": ""
@@ -72,8 +71,7 @@
               "RelativeToolTip": "examenInsertEF10\\ViewModel\\EmpleadoVM.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-02T19:33:45.46Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-02T19:33:45.46Z"
             },
             {
               "$type": "Document",
@@ -85,8 +83,7 @@
               "RelativeToolTip": "examenInsertEF10\\Program.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAAB4AAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-02T19:32:00.038Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-02T19:32:00.038Z"
             },
             {
               "$type": "Document",
@@ -98,8 +95,7 @@
               "RelativeToolTip": "examenInsertEF10\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-03-02T19:31:29.316Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-02T19:31:29.316Z"
             },
             {
               "$type": "Document",
@@ -111,8 +107,7 @@
               "RelativeToolTip": "examenInsertEF10\\Context\\examenInsertEF10Context.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAxwB0AAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-02T19:31:05.1Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-02T19:31:05.1Z"
             }
           ]
         }

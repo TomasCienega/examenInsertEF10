@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\tomas\\Downloads\\EjerciciosDeProgramacion\\examenInsertEF10\\examenInsertEF10\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FA3690DA-E96B-4992-B4E8-13661A12A78B}|examenInsertEF10\\examenInsertEF10.csproj|c:\\users\\tomas\\downloads\\ejerciciosdeprogramacion\\exameninsertef10\\exameninsertef10\\exameninsertef10\\views\\empleado\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FA3690DA-E96B-4992-B4E8-13661A12A78B}|examenInsertEF10\\examenInsertEF10.csproj|solutionrelative:exameninsertef10\\views\\empleado\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FA3690DA-E96B-4992-B4E8-13661A12A78B}|examenInsertEF10\\examenInsertEF10.csproj|c:\\users\\tomas\\downloads\\ejerciciosdeprogramacion\\exameninsertef10\\exameninsertef10\\exameninsertef10\\controllers\\empleadocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FA3690DA-E96B-4992-B4E8-13661A12A78B}|examenInsertEF10\\examenInsertEF10.csproj|solutionrelative:exameninsertef10\\controllers\\empleadocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA3690DA-E96B-4992-B4E8-13661A12A78B}|examenInsertEF10\\examenInsertEF10.csproj|c:\\users\\tomas\\downloads\\ejerciciosdeprogramacion\\exameninsertef10\\exameninsertef10\\exameninsertef10\\views\\empleado\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FA3690DA-E96B-4992-B4E8-13661A12A78B}|examenInsertEF10\\examenInsertEF10.csproj|solutionrelative:exameninsertef10\\views\\empleado\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FA3690DA-E96B-4992-B4E8-13661A12A78B}|examenInsertEF10\\examenInsertEF10.csproj|c:\\users\\tomas\\downloads\\ejerciciosdeprogramacion\\exameninsertef10\\exameninsertef10\\exameninsertef10\\viewmodel\\empleadovm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,11 +34,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\tomas\\Downloads\\EjerciciosDeProgramacion\\examenInsertEF10\\examenInsertEF10\\examenInsertEF10\\Views\\Empleado\\Index.cshtml",
               "RelativeDocumentMoniker": "examenInsertEF10\\Views\\Empleado\\Index.cshtml",
@@ -51,13 +51,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "EmpleadoController.cs",
               "DocumentMoniker": "C:\\Users\\tomas\\Downloads\\EjerciciosDeProgramacion\\examenInsertEF10\\examenInsertEF10\\examenInsertEF10\\Controllers\\EmpleadoController.cs",
               "RelativeDocumentMoniker": "examenInsertEF10\\Controllers\\EmpleadoController.cs",
               "ToolTip": "C:\\Users\\tomas\\Downloads\\EjerciciosDeProgramacion\\examenInsertEF10\\examenInsertEF10\\examenInsertEF10\\Controllers\\EmpleadoController.cs",
               "RelativeToolTip": "examenInsertEF10\\Controllers\\EmpleadoController.cs",
-              "ViewState": "AgIAADUAAAAAAAAAAAAwwEYAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAACwAAAAAAAAAAAAwwEYAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-02T19:35:30.695Z",
               "EditorCaption": ""
